@@ -14,6 +14,15 @@ Welcome to the PharmaX Enterprise platform documentation. This directory contain
 | [Module Map](./02-module-map.md) | MOD-001 | Complete module definitions with responsibilities and dependencies |
 | [Domain Model](./03-domain-model.md) | DOM-001 | Conceptual domain model with entities, relationships, and business rules |
 
+### Data Architecture (WO-0003)
+
+| Document | ID | Description |
+|----------|-----|-------------|
+| [Canonical Data Model](./13-canonical-data-model.md) | CDM-001 | Business terminology and entity definitions |
+| [Database Architecture](./14-database-architecture.md) | DBA-001 | SQL Server architecture, schemas, and design patterns |
+| [Entity Relationship Model](./15-entity-relationship-model.md) | ERD-001 | Visual ERD and aggregate boundaries |
+| [Data Dictionary](./16-data-dictionary.md) | DD-001 | Detailed table and column definitions |
+
 ### Standards & Guidelines
 
 | Document | ID | Description |
@@ -27,6 +36,13 @@ Welcome to the PharmaX Enterprise platform documentation. This directory contain
 | [Logging Strategy](./10-logging-strategy.md) | LOG-001 | Log levels, categories, structured logging, retention, and audit logging |
 | [Security Architecture](./11-security-architecture.md) | SEC-001 | Authentication, authorization (RBAC), password policy, MFA roadmap |
 | [Database Standards](./12-database-standards.md) | DB-001 | Naming conventions, indexing, transactions, SQL coding standards |
+
+### Database Schema Scripts
+
+| Script | Module | Description |
+|--------|--------|-------------|
+| [`/database/schema/001-core-schema.sql`](../database/schema/001-core-schema.sql) | Core | Organization and security tables |
+| [`/database/schema/002-product-schema.sql`](../database/schema/002-product-schema.sql) | Product | Product catalog tables |
 
 ### Architecture Decision Records (ADR)
 
