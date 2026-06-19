@@ -21,10 +21,25 @@ Welcome to the PharmaX Enterprise platform documentation. This directory contain
 | [Repository Standards](./04-repository-standards.md) | STD-001 | Coding standards, naming conventions, and layer responsibilities |
 | [Git Workflow](./05-git-workflow.md) | GIT-001 | Branching strategy, commit guidelines, and pull request process |
 | [Development Process](./06-development-process.md) | DEV-001 | Work management, code review, QA, and release procedures |
+| [Non-Functional Requirements](./07-non-functional-requirements.md) | NFR-001 | Performance, scalability, availability, security, and compliance requirements |
+| [Coding Standards](./08-coding-standards.md) | CODE-001 | Naming conventions, SOLID principles, DI, exception handling, and code quality |
+| [Error Handling](./09-error-handling.md) | ERR-001 | Exception hierarchy, UI error handling, logging, and recovery strategies |
+| [Logging Strategy](./10-logging-strategy.md) | LOG-001 | Log levels, categories, structured logging, retention, and audit logging |
+| [Security Architecture](./11-security-architecture.md) | SEC-001 | Authentication, authorization (RBAC), password policy, MFA roadmap |
+| [Database Standards](./12-database-standards.md) | DB-001 | Naming conventions, indexing, transactions, SQL coding standards |
 
----
+### Architecture Decision Records (ADR)
 
-## Quick Start
+Significant architectural decisions are documented in ADRs located in `/docs/ADR/`.
+
+| ADR | Title | Status |
+|-----|-------|--------|
+| [ADR-0001: Why Clean Architecture](./ADR/ADR-0001-why-clean-architecture.md) | Accepted |
+| [ADR-0002: Why Windows Forms](./ADR/ADR-0002-why-windows-forms.md) | Accepted |
+| [ADR-0003: Why SQL Server](./ADR/ADR-0003-why-sql-server.md) | Accepted |
+| [ADR-0004: Why ADO.NET Instead of Entity Framework](./ADR/ADR-0004-why-ado-net.md) | Accepted |
+| [ADR-0005: Why Repository Pattern + Unit of Work](./ADR/ADR-0005-why-repository-pattern.md) | Accepted |
+| [ADR-0006: Target .NET Framework Version and Compatibility Strategy](./ADR/ADR-0006-dotnet-version-strategy.md) | Accepted |
 
 ### For New Team Members
 
