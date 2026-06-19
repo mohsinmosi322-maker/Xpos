@@ -1,0 +1,14 @@
+# Examples
+# Input:
+# ### Added files:
+# ['database/schema/001-core-schema.sql', 'database/schema/002-product-schema.sql', 'docs/13-canonical-data-model.md', 'docs/14-database-architecture.md', 'docs/15-entity-relationship-model.md', 'docs/16-data-dictionary.md']
+#
+# ### Deleted files:
+# []
+#
+# ### Modified files:
+# ['docs/README.md']
+#
+# ###current .gitignore Content
+#
+# Your output: Only the optimized .gitignore content (or empty if no ignores needed).
